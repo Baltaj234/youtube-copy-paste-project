@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Playlist Player</title>
+</head>
+<body>
+    <h1 id="title">Youtube Playlist Player</h1>
+    <div class="container">
+        <div class="input-section">
+            <label for="myInput">Paste Youtube Link:</label>
+            <input type="text" id="myInput">
+            <button id="addVideo">Add Video</button>
+        </div>
+        <div class="playlist-section">
+            <h2>Your Playlist</h2>
+            <div id="playlist"></div>
+        </div>
+        <div id="player-container"></div>
+    </div>
+    <script src="insert.js" defer></script>
+</body>
+</html>
