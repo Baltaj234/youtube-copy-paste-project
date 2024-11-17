@@ -141,6 +141,6 @@ input {
 
 #player-container {
     position: relative;
-    min-height: 402px;
+    min-height: 403px;
     overflow: hidden;
 }
